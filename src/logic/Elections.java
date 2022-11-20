@@ -25,6 +25,10 @@ public class Elections {
 
 
     }
+
+    /***
+     * metodo privado que me llena la matriz votos con un rango de 0 a 100 por cada espacio
+     */
    private void fillMatriz(){
 
         for( var i = 0 ; i < votes.length ; i++ ){
